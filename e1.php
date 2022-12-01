@@ -299,7 +299,7 @@ echo nombre;
             <input type="submit" name="btnValor" value="valor1">
             <input type="submit" name="btnValor" value="valor2">
             <input type="submit" name="btnValor" value="valor3">
-           
+
 
             <div>
                 <?php
@@ -331,3 +331,11 @@ echo nombre;
 </body>
 
 </html>
+
+<!-- ********************************************************************************************************************************************** -->
+<!-- EJERCICIO 14 -ciclo for-->
+<?php
+for ($i = 0; $i < 10; $i++) {
+    echo 'Numero ' . $i . '<br/>';
+}
+?>
