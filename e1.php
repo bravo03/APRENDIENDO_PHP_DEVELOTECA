@@ -365,3 +365,42 @@ while ($a <= 15) {
     $a++;
 }
 ?>
+
+
+<!-- ********************************************************************************************************************************************** -->
+<!-- EJERCICIO 17 - funciones-->
+
+<?php
+
+// creamos la funcion con la palabra function
+// podemos poner mas de un argumento
+function imprimirNombre($nombre, $apellido)
+{
+    // aqui escribimos todas las intrucciones
+    echo 'Buenas noches, Sr. ' . $nombre . ' ' . $apellido . '<br/>';
+}
+
+// se llama a la funcion asi 
+imprimirNombre('Pedro', 'Meza');
+imprimirNombre('Bryan', 'Perez');
+imprimirNombre('Angie', 'Romel');
+
+?>
+
+<!-- EJERCICIO 18 - funcion RAND-->
+
+<?php
+$na = rand(1, 10);
+echo $na;
+
+?>
+
+<!-- EJERCICIO 19 - funcion STRTOUPPER-->
+<?php
+// asignamos una cadena de texto a una variable
+$nombre = 'Bryan Meza';
+// ejecutamos la funccion para convertir a letras mayusculas
+$nombre = strtoupper($nombre);
+// imprimimos lo que ya se convirtio
+echo $nombre;
+?>
