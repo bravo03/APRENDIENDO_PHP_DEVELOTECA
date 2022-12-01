@@ -336,6 +336,32 @@ echo nombre;
 <!-- EJERCICIO 14 -ciclo for-->
 <?php
 for ($i = 0; $i < 10; $i++) {
-    echo 'Numero ' . $i . '<br/>';
+    echo 'Número ' . $i . '<br/>';
+}
+?>
+
+<!-- ********************************************************************************************************************************************** -->
+<!-- EJERCICIO 15 - do while-->
+<?php
+// hay que asignarle un valor inicia en este caso cero 
+$a = 0;
+do {
+    echo 'Número ' . $a . '<br/>';
+    // que se eleve de uno en uno
+    $a++;
+}
+// hasta que a sea menos o igual a 12
+while ($a <= 12);
+?>
+
+<!-- ********************************************************************************************************************************************** -->
+<!-- EJERCICIO 16 - while-->
+<?php
+
+$a = 0;
+while ($a <= 15) {
+    echo 'Número ' . $a . '<br/>';
+    // que se eleve de uno en uno
+    $a++;
 }
 ?>
